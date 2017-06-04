@@ -1,4 +1,4 @@
-# shift-checker
+# Kapu Monitor "FORK Shift Checker"
 Current version: 2.0
 
 This script checks the status of your Shiftnrg Delegate by using PHP.<br>
