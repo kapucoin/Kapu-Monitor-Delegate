@@ -1,17 +1,17 @@
 # Kapu Monitor "FORK Shift Checker"
 Current version: 2.0
 
-This script checks the status of your Shiftnrg Delegate by using PHP.<br>
+This script checks the status of your Kapu Monitor Delegate by using PHP.<br>
 Feel free to rewrite in Python or Bash. 
  
 This script will also check whether your node has forked or not.<br>
-When forked, it will stop Shift, restore to previous snapshot, and start Shift again.
+When forked, it will stop Kapu, restore to previous snapshot, and start Kapu again.
   
 This script will also check your consensus and switch forging to your backup node.<br>
-When both nodes have a bad consensus, it will restart Shift and let you know by sending a Telegram message.
+When both nodes have a bad consensus, it will restart Kapu and let you know by sending a Telegram message.
 
 <b>IMPORTANT TO MENTION</b>
-If you want to use the consensus controller, you need to add your secret(s) to config.php and remove them from your Shift config.json.
+If you want to use the consensus controller, you need to add your secret(s) to config.php and remove them from your Kapu config.json.
 Also, you have to give access to the forging API calls for both nodes. Like this (1.2.3.4 is the extra IP):
 ```
     "forging": {
@@ -30,8 +30,8 @@ When you redirect output to a log file in your crontab, these lines will show up
 See section Example crontab for more information.
 
 Be sure to run this script after:
-* You have installed shift-snapshot
-* You have created a snapshot with shift-snapshot
+* You have installed kapu-snapshot
+* You have created a snapshot with kapu-snapshot
 
 ## Prerequisites
 Be sure that your php.ini allows passthru(). It's default that it does though, so just check if this script is not working.
