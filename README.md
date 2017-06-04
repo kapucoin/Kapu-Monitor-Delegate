@@ -1,4 +1,4 @@
-# Kapu Monitor "FORK Shift Checker"
+# Kapu Monitor Delegate  "FORK Shift Checker"
 Current version: 2.0
 
 This script checks the status of your Kapu Monitor Delegate by using PHP.<br>
