@@ -38,7 +38,7 @@ Be sure that your php.ini allows passthru(). It's default that it does though, s
 ```
 sudo apt install php php-cli php-mbstring php-sqlite3
 ```
-* shift-snapshot.sh: https://github.com/mrgrshift/shift-snapshot
+* kapu-snapshot.sh: https://github.com/kapucoin/kapu_snapshot.git
 
 ## Installation
 You can clone this into every directory of your choosing. I usually just clone it into my home folder.
