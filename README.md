@@ -50,7 +50,7 @@ git clone https://github.com/kapucoin/Kapu-Monitor-Delegate.git
 
 ## Example crontab
 ```
-* * * * * php ~/shift-checker/checkdelegate.php >> ~/shift-checker/logs/checkdelegate.log 2>&1
+* * * * * php ~/Kapu-Monitor-Delegate/checkdelegate.php >> ~/Kapu-Monitor-Delegate/logs/checkdelegate.log 2>&1
 ```
 
 ## Telegram bot
